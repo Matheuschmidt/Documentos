@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2dcdc;
+    flex-direction: column;
+}
+
+.container {
+    width: 97%;
+    height: 97vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.container-son {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: auto;
+    flex-direction: column;
+    background-color: #F9EFEF;
+    padding: 3rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    display: flex;
+  margin-bottom: 1rem;
+    justify-content: flex-start;
+    font-weight: 600;
+    color: #DDA29A;
+}
+
+
+
+
+.input-box {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #ff000021;
+    border-radius: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #000;
+}
+
+.input-box label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+
+.postar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.postar button{
+    border: none;
+    width: 30%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.65rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #DDA29A;
+}
+
+.postar a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}

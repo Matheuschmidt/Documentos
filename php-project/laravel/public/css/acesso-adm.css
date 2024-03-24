@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2dcdc;
+}
+
+.box {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.entrar-adm {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: auto;
+    flex-direction: column;
+    background-color: #F9EFEF;
+    padding: 3rem;
+}
+
+.entrar-header {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.below {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button .acessar-button button {
+    border: none;
+    background-color: #DDA29A;
+    padding: 1rem 12rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button .acessar-button button:hoover {
+    background-color: #e2b9b3;
+}
+
+.button .acessar-button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.title h1::after {
+    content: '';
+    display: block;
+    width: 14.3rem;
+    height: 0.3rem;
+    background-color: #DDA29A;
+    margin-bottom: 5rem;
+    position: absolute;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #A71818;
+}
+
+.input-box label,
+.below label,
+.below .forget-password a {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
